@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from Test.gTest import router as general_router
-from Test.sTest import router as stock_router
+from Answers.generalQuery import router as general_router
+from Answers.stockQuery import router as stock_router
 
 app = FastAPI(title="Rimuru API Server")
 
